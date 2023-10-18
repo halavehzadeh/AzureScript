@@ -1,6 +1,5 @@
-# AzureScript
-all about script that you need in Azure Cloud environments
-# AzureScript
+
+# Intruduction
 The finance department has contacted you about the scenario for this hands-on lab. They are requesting additional taxonomy information on a recent Azure bill, including who created the resources, which department budget should be used for them, and if they are necessary for running business-critical systems.
 If there are any non-essential business systems, they ask that you signify that somehow.
 # Solution
