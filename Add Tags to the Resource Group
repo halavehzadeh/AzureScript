@@ -1,0 +1,4 @@
+#List the resource groups:
+az group list
+#Copy the "group name" and Update the resource group tags:
+az group update --resource-group "<RESOURCE_GROUP_NAME>" --tags "Environment=Production" "Dept=IT" "CreatedBy=<YourName>"
