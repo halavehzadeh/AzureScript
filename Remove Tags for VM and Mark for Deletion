@@ -1,0 +1,6 @@
+#In the Cloud Shell, list the existing virtual machines:
+az vm list --query '[].{name:name, resourceGroup:resourceGroup, tags:tags}' -o json
+#Remove the existing tags from the VM:
+az vm update -g "<RESOURCE_GROUP_NAME>" -n webvm1 --remove tags.defaultExperience
+#Mark the VM for deletion
+az vm update -g "<RESOURCE_GROUP_NAME>" -n webvm1 --set tags.MarkForDeletion=Yes
